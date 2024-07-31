@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 5%;
+}
+header .menu a{
+    position: relative;
+    margin: 0 10px;
+    text-decoration: 0;
+    color: #999;
+    transition: 0.5s;
+}
+header .menu a:before{
+    position: absolute;
+    top: -2px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #d6cf93;
+    transition: 0.5s;
+}
+header .menu a:hover:before {
+    width: 100%;
+}
+header .menu a:hover{
+    color: #000;
+}
+
+.manifeste{
+    height: 530px;
+    background-image: url(./image/T3.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+
+h1 span{
+    text-align: center;
+    color: #f7b11a;
+    margin: 20px 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-left: 5px;
+}
+.copyright{
+    padding: 20px 20px;
+    border-top: 2px solid rgb(0, 0, 0.1);
+    background: rgb(250, 240, 187);
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: #333;
+}
+.copyright a{
+    color: #eec407;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: italic;
+}
